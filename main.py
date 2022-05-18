@@ -1,12 +1,13 @@
 import telebot
 import requests
 import json
+$username = $update["message"]["from"]["username"];
 
 bot = telebot.TeleBot('5380148604:AAH5Qi5lgzQj8yufhGfS0oYxKpVANhOlJew')
 
 @bot.message_handler(commands=['start'])
 def greet(message):
-	bot.reply_to(message, f'Bienvenido {}, ingrese una dirección IP válida para obtener los detalles')
+	bot.reply_to(message, f'Bienvenido @$username, ingrese una dirección IP válida para obtener los detalles')
 
 
 @bot.message_handler(func=lambda message: True)
