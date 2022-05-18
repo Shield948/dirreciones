@@ -13,7 +13,6 @@
         "BOT_TOKEN": {
             "description": "Your Telegram Bot Token From @Botfather"
         },
- 
-    },
+
     "buildpacks": [{"url": "heroku/python"}]
 }
