@@ -3,7 +3,7 @@ from requests import get
 
 import telebot
 
-Bot = Client(
+Client(
     "Password Generator Bot",
     bot_token=os.environ.get("BOT_TOKEN"),
     api_id=int(os.environ.get("API_ID")),
