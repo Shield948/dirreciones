@@ -1,0 +1,24 @@
+{
+    "name": "direcciones",
+    "description": "A Simple Telegram Bot That Can Generate Random Password With Pyrogram Framework.",
+    "repository": "https://github.com/ierfeioq/dirreciones",
+    "keywords": [
+        "password",
+        "random",
+        "Password-Generator-Bot",
+        "telegram bot",
+        "non-readable"
+    ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token From @Botfather"
+        },
+        "API_ID": {
+            "description": "Your API_ID from @ScrapperRoBot"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from @ScrapperRoBot"
+        }
+    },
+    "buildpacks": [{"url": "heroku/python"}]
+}
