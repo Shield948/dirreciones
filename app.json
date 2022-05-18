@@ -13,12 +13,7 @@
         "BOT_TOKEN": {
             "description": "Your Telegram Bot Token From @Botfather"
         },
-        "API_ID": {
-            "description": "Your API_ID from @ScrapperRoBot"
-        },
-        "API_HASH": {
-            "description": "Your API_HASH from @ScrapperRoBot"
-        }
+ 
     },
     "buildpacks": [{"url": "heroku/python"}]
 }
