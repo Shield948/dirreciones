@@ -8,7 +8,7 @@ try:
 except IndexError:
     print('Usage: python main.py <telegram bot token>')
     exit(1)
-bot = telebot.TeleBot(token)
+bot_token=os.environ.get("BOT_TOKEN"),
 
 @bot.message_handler(commands=['start'])
 def start(message):
