@@ -10,9 +10,18 @@
     "repository": "https://github.com/ierfeioq/dirreciones/",
     "success_url": "https://t.me/referenciasRedHoodPRO",
     "env": {
-        "BOT_TOKEN": {
-            "description": "Your Telegram Bot Token From @Botfather"
+        "API_TOKEN": {
+            "description": "API Token , get it from @BotFather"
         },
-
+        "START_MSG": {
+           "description": "Enter Custom Start Message"
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
     "buildpacks": [{"url": "heroku/python"}]
 }
