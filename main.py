@@ -6,7 +6,6 @@ import InlineKeyboardButton
 import random
 import os
 
-(
 bot = telebot.TeleBot('5380148604:AAH5Qi5lgzQj8yufhGfS0oYxKpVANhOlJew')
 
 )
