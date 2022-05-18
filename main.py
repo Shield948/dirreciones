@@ -2,7 +2,7 @@ import telebot
 import requests
 import json
 
-bot_token=os.environ.get("BOT_TOKEN")
+bot = telebot.TeleBot('BOT_TOKEN')
 
 @bot.message_handler(commands=['start'])
 def greet(message):
