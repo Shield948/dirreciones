@@ -3,6 +3,12 @@ from requests import get
 
 import telebot
 
+Bot = Client(
+    "Password Generator Bot",
+    bot_token=os.environ.get("BOT_TOKEN"),
+    
+)    
+
 try:
     token = argv[1]
 except IndexError:
