@@ -6,7 +6,7 @@ import telebot
 try:
     token = argv[1]
 except IndexError:
-    print('Usage: python bot.py <telegram bot token>')
+    print('Usage: python main.py <telegram bot token>')
     exit(1)
 bot = telebot.TeleBot(token)
 
