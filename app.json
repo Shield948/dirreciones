@@ -23,5 +23,5 @@
             "size": "free"
         }
     },
-    "image": "heroku/php"
+    "buildpacks": [{"url": "heroku/python"}]
 }
