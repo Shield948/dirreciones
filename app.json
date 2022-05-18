@@ -1,27 +1,18 @@
 {
-    "name": "Ip Location",
-    "description": "A simple PHP powered BIN Checker Bot",
-    "keywords": [
-        "BIN",
-	"PHP",
-        "Checker",
-        "Bot"
-    ],
+    "name": "ip-location",
+    "description": "A Simple Telegram Bot That Can Generate Random Password With Pyrogram Framework.",
     "repository": "https://github.com/ierfeioq/dirreciones",
-    "success_url": "https://t.me/referenciasRedHoodPRO",
+    "keywords": [
+        "password",
+        "random",
+        "Password-Generator-Bot",
+        "telegram bot",
+        "non-readable"
+    ],
     "env": {
-        "API_TOKEN": {
-            "description": "API Token , get it from @BotFather"
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token From @Botfather"
         },
-        "START_MSG": {
-           "description": "Enter Custom Start Message"
-        }
     },
-    "formation": {
-        "web": {
-            "quantity": 1,
-            "size": "free"
-        }
-    },
-    "image": "heroku/php"
+    "buildpacks": [{"url": "heroku/python"}]
 }
