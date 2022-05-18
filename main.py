@@ -8,7 +8,7 @@ import os
 
 bot = telebot.TeleBot('5380148604:AAH5Qi5lgzQj8yufhGfS0oYxKpVANhOlJew')
 
-)
+
 
 TEXT = """**Hola {},
 Con este bot podras geolocalizar cualquier ip**
@@ -21,7 +21,7 @@ BUTTONS = InlineKeyboardMarkup(
         ],
         
     ]
-)
+
 
 @Bot.on_message(filters.private & filters.command(["start"]))
 async def start(bot, update):
