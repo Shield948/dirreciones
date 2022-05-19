@@ -6,7 +6,7 @@ bot = telebot.TeleBot('5380148604:AAH5Qi5lgzQj8yufhGfS0oYxKpVANhOlJew')
 
 @bot.message_handler(commands=['start'])
 def greet(message):
-	bot.reply_to(message, f'Hola bienvenido, ingrese una dirección IP válida para obtener los detalles')
+	bot.reply_to(message, f'Hola bienvenido, este bot fue creado por @lord_zeper \ningrese una dirección IP válida para obtener los detalles')
 
 
 @bot.message_handler(func=lambda message: True)
